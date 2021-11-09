@@ -1,0 +1,73 @@
+.testimonials_section{
+    padding: 7%;
+    padding-top: 50px;
+    @include flex-center;
+    font-family: 'poppins', sans-serif;
+    gap:50px;
+    flex-wrap: wrap;
+    .text{
+        img{
+            width: 87px;
+            padding-top: 80px;
+        }
+    }
+    .advice{
+        position: relative;
+        width:600px;
+        img{
+            height: 68px;
+            width: 68px;
+            position: absolute;
+            z-index: 10;
+        }
+        span{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            height: 205px;
+            width: 425px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 21.85px 26.3px rgba(0, 0, 0, 0.10);
+            color: #5E6282;
+            z-index: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-left: 40px;
+            h1{
+                font-size: 16px;
+                font-family: 'poppins', sans-serif;
+                color: #5E6282;
+                padding: 0;
+            }
+            h2{
+                font-size: 14px;
+            }
+            p{
+                line-height: 20px;
+                font-size: 16px;
+            }
+            span{
+                top:80px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                background:none;
+                border: solid 2px #F7F7F7;
+                z-index: -20;
+                box-shadow: none;
+            }
+        } 
+    }
+    .pagination{
+        display: flex;
+        align-items: center;
+        padding-top: 70px;
+        img{
+            height: 71.5px;
+            width: 14px;
+        }
+    }
+}

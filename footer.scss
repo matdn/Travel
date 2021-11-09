@@ -1,0 +1,65 @@
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    .jadoo{
+        h1{
+            font-family: 'poppins regular',sans-serif;
+            font-weight: 300;
+            font-size: 44px;
+        }
+    }
+    .info{
+        h1{
+            font-family: 'poppins bold',sans-serif;
+            font-weight: 600;
+            font-size: 21px;
+        }
+        h2{
+            font-family: 'poppins medium',sans-serif;
+            font-weight: 300;
+            font-size: 21px;
+            color:#5E6282;
+        }
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .icone{
+            display: flex;
+            gap: 20px;
+            padding-bottom: 20px;
+        }
+        p{
+            font-family: 'poppins medium',sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            padding-bottom: 40px;
+        }
+        .app{
+            display: flex;
+            gap: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+.copyrights{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-family: 'poppins medium',sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
